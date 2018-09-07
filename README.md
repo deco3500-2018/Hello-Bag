@@ -5,7 +5,7 @@ App for motivate users doing daily sports to help them changing their life behav
 [Proposal](https://github.com/deco3500-2018/Hello-Bag/wiki/Project-Proposal)
 
 # Team
-Ruoran Zhao
-Ye Yu
-Yuchen Zhou
-Fan Yu
+//Ruoran Zhao
+//Ye Yu
+//Yuchen Zhou
+//Fan Yu
