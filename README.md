@@ -7,6 +7,9 @@ App for motivate users doing daily sports to help them changing their life behav
 # Final Report
 [Final Report](https://github.com/deco3500-2018/Hello-Bag/wiki)
 
+# Prototype and Documentation 
+[Prototype](https://github.com/deco3500-2018/Hello-Bag/wiki/Prototype)
+
 # Team
 * Ruoran Zhao - @Kryssizhao
 
