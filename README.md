@@ -10,11 +10,14 @@ App for motivate users doing daily sports to help them changing their life behav
 # Conference poster & Promotional material
 [Conference poster & Promotional material](https://github.com/deco3500-2018/Hello-Bag/wiki/Conference-poster-&-Promotional-material)
 
-# Final Report
-[Final Report](https://github.com/deco3500-2018/Hello-Bag/wiki)
-
 # Prototype and Documentation 
 [Prototype](https://github.com/deco3500-2018/Hello-Bag/wiki/Prototype)
+
+# Project Contribution
+[Project Contribution](https://github.com/deco3500-2018/Hello-Bag/wiki/Project-Contribution)
+
+# Final Report
+[Final Report](https://github.com/deco3500-2018/Hello-Bag/wiki)
 
 # Team
 * Ruoran Zhao - @Kryssizhao
