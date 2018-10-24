@@ -10,6 +10,9 @@ The Pedometer + Virtual Pet Mashup APP
 # Conference poster & Promotional material
 [Conference poster & Promotional material](https://github.com/deco3500-2018/Hello-Bag/wiki/Conference-poster-&-Promotional-material)
 
+# Demonstration Vedio
+https://youtu.be/Sp7-vgtzUcc
+
 # Prototype and Documentation 
 [Prototype](https://github.com/deco3500-2018/Hello-Bag/wiki/Prototype)
 
