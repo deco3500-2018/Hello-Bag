@@ -1,0 +1,545 @@
+body{
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+#bigDiv1{
+    width: 380px;
+    height: 700px;
+    background-image: url("background/background1.png");
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#bigDiv2{
+    width: 380px;
+    height: 700px;
+    background-image: url("background/choosePetBackground.png");
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#bigDiv3{
+    position: relative;
+    width: 380px;
+    height: 700px;
+    /* background-image: url("runBackground.png");
+    background-repeat: no-repeat; */
+    display: none;
+}
+
+#bigDiv3Run{
+    width: 380px;
+    height: 640px;
+    background-image: url("background/runBackground.png");
+    background-repeat: no-repeat;
+}
+
+#bigDiv3Rank{
+    width: 380px;
+    height: 640px;
+    background-image: url("background/rankBackground.png");
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#bigDiv3Port{
+    width: 380px;
+    height: 640px;
+    background-image: url("background/portBackground.png");
+    background-repeat: no-repeat;
+    display: none;
+    position: relative;
+}
+
+#portWindow{
+    background-color: #583576;
+    width: 300px;
+    height: 150px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: absolute;
+    top: 270px;
+    left: 40px;
+    display: none;
+    z-index: 999;
+}
+
+#portWindow img{
+    float: right;
+    margin: 5px;
+}
+
+#portWindow div{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #F3B442;
+    position: absolute;
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+#logOutForPort{
+    left: 75px;
+    bottom: 30px;
+}
+
+#choosePetForPort{
+    left: 75px;
+    bottom: 90px;
+}
+
+/** daily reward interface start(55 -79)**/
+#bigDiv3DailyRewards{
+    display: none;
+    width: 380px;
+    height: 640px;
+    background: url("background/dailyReward(1).png") no-repeat;
+    position: relative;
+}
+
+#greenTick{
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 45px;
+}
+
+#receiveRwards{
+    text-align: center;
+    height: 30px;
+    width: 160px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 115px;
+    left: 120px;
+    background-color: #F3B442;
+    color: whitesmoke;
+}
+/** daily reward finish**/
+
+#bigDiv3PetStore{
+    width: 380px;
+    height: 640px;
+    background-image: url("background/petItemStore.png");
+    background-repeat: no-repeat;
+    display: none;
+    position: relative;
+}
+
+#storeItems{
+    height: 400px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#storeItems div{
+    height: 50px;
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    line-height: 24px;
+}
+
+#storeItems div div{
+    margin-top: 13px;
+    height: 24px;
+    width: 50px;
+    background-color: #F3B442;
+}
+
+#currencyForStore{
+    width: 380px;
+    height: 40px;
+    color: #F3B442;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+#bigDiv3Pet{
+    width: 380px;
+    height: 640px;
+    background-image: url("background/petBackground.png");
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#petUpperButtons{
+    width: 380px;
+    height: 140px;
+    float: left;
+}
+
+#petUpperButtons img{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#petWindow{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#petBars{
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 380px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #4C1E07;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+#petBarsFrame{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#foodBar, #actBar{
+    height: 50px;
+    width: 300px;
+    position: relative;
+}
+
+#foodBar span, #actBar span{
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+}
+
+#foodBarGrey, #actBarGrey{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 300px;
+    background-color: #35314F;
+}
+
+#foodBarYellow, #actBarYellow{
+    background-color: #F3B442;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 20px;
+    width: 300px;
+    z-index: 99;
+    transition: width 2s;
+}
+
+#petItems{
+    margin-top: 40px;
+    width: 380px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#petItems img{
+    max-height: 35px;
+    max-width: 35px;
+}
+
+#sportVolumeBar{
+    margin-top: 16px;
+    margin-left: 42px;
+    height: 22px;
+    width: 0px; //最大值290-300，一般295
+    border: transparent solid 1px;
+    border-radius: 22px;
+    background-color: #F8DC4A;
+}
+
+#choosePet{
+    height: 120px;
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+#showPet{
+    margin-left: 129px;
+    margin-top: 20px;
+}
+
+
+
+#inputArea{
+    margin-top: 250px;
+    padding: 5px 0px 5px 5px;
+    width: 350px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+    background-image: url("background/inputBackground.png");
+    background-repeat: repeat-x;
+}
+
+form{
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: inherit;
+    height: inherit;
+    color: whitesmoke;
+}
+
+
+#login, #choosePetDone{
+    width: 200px;
+    height: 40px;
+    background-color: #f3b442;
+    text-align: center;
+    margin: 20px auto;
+    margin-top: 100px;
+    line-height: 40px;
+    color: whitesmoke;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#petName{
+    width: 380px;
+    height: 60px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+#choosePetDone{
+    margin-top: 200px;
+}
+
+#guideBar{
+   margin-bottom: 0px;
+    width: 380px;
+    height: 60px;
+    background-color: #583576;
+    display: flex;
+    justify-content: space-around;
+}
+
+#guideBar img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#sportTimeAndTarget{
+    width: 380px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #35314F;
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#sportTimeTime, #sportTargetDistance{
+    position: relative;
+}
+
+#sportTimeTime::before, #sportTargetDistance::before{
+    content: " ";
+    border: 3px solid red;
+    border-radius:3px;
+    position: absolute;
+    z-index: 1000;
+    top: 10px;
+    left: -10px;
+}
+
+
+
+#runYellowButton{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #4E3E46;
+    border-radius: 150px;
+    background-color: #F3B442;
+    margin-top: 100px;
+    margin-left: 110px;
+    text-align: center;
+    line-height: 150px;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+#sportTarget{
+    margin-left: 65px;
+    display: none;
+}
+
+#coinPlus1, #coinPlus2, #coinPlus3, #coinPlus4, #coinPlus5, #coinPlus6{
+    position: absolute;
+    top: 170px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #F3B442;
+    display: block;
+    transition: font-size 2s, top 3s, color 4s;
+}
+
+#achieveTarget, #purchaseSuccess, #purchaseFail{
+    background-repeat: none;
+    width: 200px;
+    height: 100px;
+    border: transparent 1px solid;
+    border-radius: 8px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    z-index: 777;
+    display: none;
+}
+
+#achieveTarget{
+    background-image: url("background/achieveTargetBackground.png");
+}
+
+#purchaseSuccess{
+    background-image: url("background/purchaseSuccess.png");
+}
+
+#purchaseFail{
+    background-image: url("background/purchaseFail.png");
+}
+
+#achieveTarget div, #purchaseSuccess div, #purchaseFail div{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin-top: 70px;
+}
+
+#achieveTarget span, #purchaseSuccess span, #purchaseFail span{
+    height: 20px;
+    width: 70px;
+    background-color: #F3B442;
+    text-align: center;
+    line-height: 20px;
+}
+
+#shade{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 666;
+    width: 380px;
+    height: 700px;
+    background-color: rgba(0,0,0,0.2);
+    display: none;
+}
+
+
+#coinPlus1{
+    left: 70px;
+}
+
+#coinPlus2{
+    left: 120px;
+}
+
+#coinPlus3{
+    left: 173px;
+}
+
+#coinPlus4{
+    left: 223px;
+}
+
+#coinPlus5{
+    left: 274px;
+}
+
+#coinPlus6{
+    top: 230px;
+    left: 60px;
+    display: block;
+    font-size: 24px;
+    text-emphasis: center;
+}
+
+.items{
+    position: relative;
+}
+
+#numOfFood, #numOfShit, #numOfBall, #numOfNiddle{
+    position: absolute;
+    background: darkred;
+    color: whitesmoke;
+    text-align: center;
+    height: 12px;
+    width: 12px;
+    font-size: 8px;
+    line-height: 12px;
+    border: 1px transparent solid;
+    border-radius: 12px;
+    top: -5px;
+    right: -5px;
+}
+
+#portfolio{
+    float: right;
+    margin-top: 10px;
+}
+/** color of placeholder **/
+.textInput::-webkit-input-placeholder {
+    color: #EEDFE7;
+}
+
+.textInput:-ms-input-placeholder {  // IE10+
+    color: #EEDFE7;
+}
+
+#welcomeUser{
+    color: whitesmoke;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+}
+
+#userPetNameToShow{
+    position: absolute;
+    top: 175px;
+    width: 380px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    color: whitesmoke;
+}
