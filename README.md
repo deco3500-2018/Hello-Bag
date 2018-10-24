@@ -1,4 +1,4 @@
-# SportsLifeApp
+# SportsLife Mobile App
 The Pedometer + Virtual Pet Mashup APP
 
 # Project Proposal
