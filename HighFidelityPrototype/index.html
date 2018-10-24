@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3500 Prototype</title>
+    <link rel="stylesheet" type="text/css" href="Prototype3500.css">
+    <script type="text/javascript" src="Prototype3500.js"></script>
+</head>
+<body>
+<div id="bigDiv1">
+    <div id = "inputArea">
+        <form>
+            <div>
+                <div>
+                    Name :
+                    <input type="text" name="name" id="userName" placeholder="Username" class="textInput" style="background-color:   transparent; outline: none; float: right; border: 1px rgba(256,256,256,.1) solid; color: whitesmoke; height: 30px;" size="35">
+                </div>
+            </div>
+            <div>
+                <div>
+                    Password :
+                    <input type="text" name="password" id="userPassword" placeholder="Password" class="textInput" style="background-color:   transparent; outline: none;   float: right; border: 1px rgba(256,256,256,.1) solid; height: 30px; color: whitesmoke;" size="35">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div id = "login">LOGIN</div>
+</div>
+
+<div id="bigDiv2">
+    <span id="welcomeUser"></span>
+    <div id="choosePet">
+        <img id="choosePetDog" src="pets/imaginaryDog(1).png" alt="image of a dog">
+        <img id="choosePetCat" src="pets/imaginaryCat(1).png" alt="image of a cat">
+    </div>
+    <form id="petName">
+        <input type="text" name="petName" placeholder="Name your pet here" style="background-color:   transparent; outline: none; height: 50px; font-size: 24px; width: 300px; border: none; color: whitesmoke; text-align: center" class="textInput" id="userPetName">
+    </form>
+    <div id="choosePetDone">DONE</div>
+</div>
+
+<div id="bigDiv3">
+    <div id="bigDiv3Run">
+        <img id="showPet" src="pets/imaginaryBigCat.png" alt="image of a pet">
+        <span id="coinPlus1"></span>
+        <span id="coinPlus2"></span>
+        <span id="coinPlus3"></span>
+        <span id="coinPlus4"></span>
+        <span id="coinPlus5"></span>
+        <div id="sportVolumeBar"><img src="other/catToEatCoin.png" style="float: right;"></div>
+        <div id="sportTimeAndTarget">
+            <div>
+                <span id="sportInfo">
+                    <span id="sportTargetDistance">DISTANCE</span>
+                    <br>
+                    <span id="exerciseVolumToShow">0 M</span>
+                </span>
+            </div>
+            <div>
+                <span id="sportTime">
+                    <span id="sportTimeTime">TIME</span>
+                    <br>
+                    <span id="timeSpentToShow">0:00 MIN</span>
+                </span>
+            </div>
+
+        </div>
+        <img src="other/sportTarget.png" id="sportTarget">
+        <div id="runYellowButton">START</div>
+        <div id="achieveTarget"><div><span id="okOne">OK</span></div></div>
+    </div>
+    <div id="bigDiv3Rank"></div>
+    <div id="bigDiv3Port">
+        <img src="other/portfolio.png" id="portfolio">
+        <div id="portWindow">
+            <img src="other/closeButton.png" id="closeButtonForPort">
+            <div id="choosePetForPort">CHOOSE PET</div>
+            <div id="logOutForPort">LOG OUT</div>
+        </div>
+        <span id="userPetNameToShow">Kitty</span>
+    </div>
+    <div id="bigDiv3Pet">
+        <div id="petUpperButtons">
+            <img src="other/storeButton.png" id="storeButton">
+            <img src="other/dailyRewardsButton.png" id="dailyRewardsButton">
+        </div>
+        <div id="petWindow"><img id="petImage" src="pets/catSleeping.png"></div>
+        <div id="petBars">
+            <div id="petBarsFrame">
+                <div id="foodBar">
+                    <span>FOOD</span>
+                    <div id="foodBarGrey"></div>
+                    <div id="foodBarYellow"></div>
+                </div>
+                <div id="actBar">
+                    <span>ACTIVITY</span>
+                    <div id="actBarGrey"></div>
+                    <div id="actBarYellow"></div>
+                </div>
+            </div>
+        </div>
+        <div id="petItems">
+            <div class="items"><img src="petItems/foodBowl.png" id="petItemFood"><span id="numOfFood">0</span></div>
+            <div class="items"><img src="petItems/ball.png" id="petItemBall"><span id="numOfBall">0</span></div>
+            <div class="items"><img src="petItems/shit.png" id="petItemShit"><span id="numOfShit">0</span></div>
+            <div class="items"><img src="petItems/niddle.png" id="petItemNiddle"><span id="numOfNiddle">0</span></div>
+        </div>
+    </div>
+    <div id="bigDiv3DailyRewards">
+        <img src="other/backButton.png" id="backButtonForDW">
+        <img src="other/greenTick.png" id="greenTick">
+        <span id="coinPlus6"></span>
+        <div id="receiveRwards">Receive Award</div>
+    </div>
+    <div id="bigDiv3PetStore">
+        <img src="other/backButton.png" id="backButtonForStore">
+        <div id="currencyForStore"></div>
+        <div id="storeItems">
+            <div>
+                <img src="petItems/foodBowl.png">
+                <div id="purchaseFood">$ 5</div>
+            </div>
+            <div>
+                <img src="petItems/ball.png">
+                <div id="purchaseBall">$ 10</div>
+            </div>
+            <div>
+                <img src="petItems/shit.png">
+                <div id="purchaseShit">$ 5</div>
+            </div>
+            <div>
+                <img src="petItems/niddle.png">
+                <div id="purchaseNiddle">$ 20</div>
+            </div>
+        </div>
+        <div id="purchaseSuccess"><div><span id="okTwo">OK</span></div></div>
+        <div id="purchaseFail"><div><span id="okThree">OK</span></div></div>
+    </div>
+    <div id="guideBar">
+        <img src="guideBarButtons/runYellow.png" id="runButtonGuide">
+        <img src="guideBarButtons/petGrey.png" id="petButtonGuide">
+        <img src="guideBarButtons/rankGrey.png" id="rankButtonGuide">
+        <img src="guideBarButtons/portfolioGrey.png" id="portButtonGuide">
+    </div>
+    <div id="shade"></div>
+</div>
+
+
+
+
+</body>
+</html>
