@@ -1,5 +1,5 @@
-# SportsLife
-App for motivate users doing daily sports to help them changing their life behaviors.
+# SportsLifeApp
+The Pedometer + Virtual Pet Mashup APP
 
 # Project Proposal
 [Project Proposal](https://github.com/deco3500-2018/Hello-Bag/wiki/Project-Proposal)
